@@ -1,0 +1,44 @@
+.App{
+    height: 100vh;
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);
+        position: relative;
+        top:70px;
+        scroll-snap-type:  y mandatory; //snappy scroll
+        scroll-behavior: smooth; //slow and smooth
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+        >*{
+            // for each element inside sections
+
+            width: 100vw;
+            height: calc(100vh - 70px);
+
+            scroll-snap-align: start;
+
+
+        }
+
+    }
+    .footer{
+        height: calc(100vh - 850px);
+        top: 850px;
+
+        >*{
+            // for each element inside sections
+
+            width: 100vw;
+            height: calc(100vh - 850px);
+
+            scroll-snap-align: start;
+
+
+        }
+
+    }
+}
