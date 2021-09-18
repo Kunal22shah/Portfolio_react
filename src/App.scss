@@ -25,20 +25,20 @@
         }
 
     }
-    .footer{
-        height: calc(100vh - 850px);
-        top: 850px;
+    // .footer{
+    //     height: calc(100vh - 850px);
+    //     top: 850px;
 
-        >*{
-            // for each element inside sections
+    //     >*{
+    //         // for each element inside sections
 
-            width: 100vw;
-            height: calc(100vh - 850px);
+    //         width: 100vw;
+    //         height: calc(100vh - 850px);
 
-            scroll-snap-align: start;
+    //         scroll-snap-align: start;
 
 
-        }
+    //     }
 
-    }
+    // }
 }
