@@ -1,4 +1,25 @@
 .images {
+  height: 400px;
+  width: 600px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+.details {
+  margin-top: 1000px;
+}
+
+@media only screen and (max-width: 600px) {
+  .images {
+    width: 365px;
+    height: 450px;
+    padding: 10px;
+  
+  }
+
+  .details {
+    margin-top: 400px;
+  }
 }
